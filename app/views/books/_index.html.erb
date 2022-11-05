@@ -21,6 +21,7 @@
         </td>
         <td><%= render "book_comments/counter", book: book %></td>
         <td><%= render "books/static_rate", book: book %></td>
+        <td><%= l book.created_at %></td>
       </tr>
     <% end %>
   </tbody>
